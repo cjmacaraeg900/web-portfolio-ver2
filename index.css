@@ -3,6 +3,10 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Zilla Slab', serif;*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
 	font-family: 'Zilla Slab', serif;
@@ -36,13 +40,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 .plarge {
 	font-size: 3rem;
-	font-family: Cal;
+	font-family: Calibri;
 	text-align: center;
 
 }
 
+.plarge2 {
+	font-size: 3rem;
+	font-family: Elephant;
+	text-align: left;
+	border-bottom: 2px solid #463f3a;
+
+
+}
+
+.plargel {
+	font-size: 3rem;
+	font-family: Century Gothic;
+
+}
+
+.plargen {
+	margin-left: 20% ;
+
+}
+
+.miniback {
+	background-color: bcb8b1;
+}
+
 ul {
 	list-style: none;
+}
+
+
+.ulstyle {
+	list-style: square;
 }
 
 #lir {
@@ -51,4 +84,26 @@ ul {
 
 #lil {
 	float: left;
+}
+
+.footerfont
+
+{
+	font-size: 1.3rem;
+	font-family: Century Gothic;
+	text-align: center;
+	background-color: #0a0908;
+}
+
+.icon {
+	width: 30px;
+	height: 30px; 
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+span {
+	font-size: 15px;
+	padding: auto;
+
 }
