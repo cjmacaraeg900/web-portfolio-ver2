@@ -1,0 +1,54 @@
+/*External CSS*/
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Zilla Slab', serif;*/
+
+
+body {
+	font-family: 'Zilla Slab', serif;
+}
+
+
+
+#mynav a:hover{
+	background-color: white;
+	color: Black;
+}
+
+/* Gray Scale */
+.hovergray figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hovergray figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.opensans {
+	font-family: 'Open Sans', sans-serif;
+}
+.plarge {
+	font-size: 3rem;
+	font-family: Cal;
+	text-align: center;
+
+}
+
+ul {
+	list-style: none;
+}
+
+#lir {
+	float: right;
+}
+
+#lil {
+	float: left;
+}
