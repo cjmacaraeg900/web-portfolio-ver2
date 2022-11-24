@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS link -->
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="./index.css">
 
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -17,249 +17,299 @@
 	<!-- Bootstrap CSS-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
 	<title>CJ MACARAEG</title>
 </head>
 
-<body class="bg-light">
+<body class="black-bg">
 
 	<!-- Heading Part / Navbar -->
-	<header>
-		<a name="Home"></a>
-		<nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-dark" id="mynav">
-		  <a class="nav-link active text-white" href="#Home"> <img src="./images/logo.png" alt="FSDev++" class="img-fluid bg-light rounded-circle" width="40"></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse opensans" id="navbarNav">
-		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item px-5">
-		        <a class="nav-link active" href="#Home">Home</a>
-		      </li>
-		      <li class="nav-item px-5">
-		        <a class="nav-link active " href="#About">About Me</a>
-		      </li>
-		      <li class="nav-item px-5">
-		        <a class="nav-link active" href="#Projects">Projects</a>
-		      </li>
-		      <li class="nav-item px-5">
-		        <a class="nav-link active" href="#Contact">Contact</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
-	</header>
+	<a name="Home"></a>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark black-bg alfa-nav" id="mynav">
+		<a class="nav-link active text-white" href="#Home"> <img src="./images/logo.png" alt="FSDev++" class="img-fluid bg-light rounded-circle" width="30"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav text-white">
+			<li> CJ_MACARAEG<li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link active px-4" href="#Home">Home</a>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link active px-4" href="#About">About Me</a>
+				</li> 
+				<li class="nav-item"> 
+					<a class="nav-link active px-4" href="#Projects">Projects</a>
+				</li> 
+				<li class="nav-item"> 
+					<a class="nav-link active px-4" href="#Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 	<!-- Main Content -->
-	<main>
-		<!-- landing page --> 
-		<section class="bg-light d-flex justify-content-center text-dark text-justify min-vh-60 p-3">
-			<div class="col-sm-12 col-md-8 col-lg-8 min-vh-30 p-0">
-				<div class="hovergray">
-					<div class="mt-5 bg-light text-center ">
-						<div data-aos="fade-up">
-							<h3>< Coder > < Designer /> </h3>
-							<h5> Thinking logic in Programming and Creating Design Systems </h5>
+	<!-- landing page --> 
+	<div class="mt-5" data-aos="fade-up">
+		<div class="text-dark row">
+			<div class="black-bg pt-3 pb-3 col-xs-5 col-md-5 col-lg-5 hovergray">
+				<figure><img src="./images/cj.png" class="img-fluid"/>
+				</figure>           		
+			</div>
+			<div class="black-bg text-light pt-3 pb-3 col-xs-7 col-md-7 col-lg-7  d-flex align-items-center justify-content-center flex-column">
+				<h3 class="alfa-heading">< Coder > < Designer /> </h3>
+				<div>
+					<h4 class="text-warning ml-2 mb-4 mt-4 text-spc"><strong>...</strong></h4>
+				</div>
+				<div>	
+					<h3 class="alfa-subheading ml-4 mb-3">I'm <em class="text-warning">CJ MACARAEG</em></h3>
+				</div>
+				<div>
+					<h3 class="alfa-subheading text-center ml-4 mb-3">A <em class="text-warning">Full Stack Developer</em> <div>&</div> <em class="text-warning">Instructor</em> </h3>
+					<div class="d-flex justify-content-center">
+						<button type="button" class="btn btn-warning mt-3 pl-3 pr-3">
+							<a class="text-dark" href="https://drive.google.com/file/d/1rYi8gwcUZYSUDX8shio3PBIHr-tiCflq/view?usp=sharing"><strong>Hire Me!</strong>
+						</button> 
+						<button type="button" class="btn btn-warning mt-3 pl-3 pr-3 ml-5">
+							<strong> <a class="text-dark" href="https://drive.google.com/file/d/1rYi8gwcUZYSUDX8shio3PBIHr-tiCflq/view?usp=sharing">Download CV</strong>
+							<a name="About"></a>
+						</button>  
+					</div>   
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- 	<section class="bg-light d-flex justify-content-center text-dark text-justify mt-5 p-3">
+				<div class="mt-2 p-3 col-sm-12 col-md-8 col-lg-8">
+					<div class="hovergray">
+						<div class="mt-5 bg-light text-center ">
+							<div data-aos="fade-up">
+								<h3>< Coder > < Designer /> </h3>
+								<h5> Thinking logic in Programming and Creating Design Systems </h5>
+							</div>
+						</div>
+						<div class="text-center mb-5">
+							<figure><img src="./images/cj.png" class="img-fluid" width="450" /></figure>
+							<p class="plarge">Full Stack Developer / Instructor</p>
+							<h5> Developer who writes clean, elegant and efficient code </h5>
+							<h5> Developer specializing in Ul Design and Design Systems </h5>
 						</div>
 					</div>
-				  <div class="text-center mb-5">
-				    <figure><img src="./images/cj.png" class="img-fluid" width="450" /></figure>
-				    <p class="plarge">Full Stack Developer / Instructor</p>
-				    <h5> Developer who writes clean, elegant and efficient code </h5>
-				    <h5> Developer specializing in Ul Design and Design Systems </h5>
-				  </div>
+				</div> -->
+
+
+				<!-- Landing Page End -->
+
+				<!-- About Me -->
+
+				<div class="text-white row">
+					<div class="bg-yel pt-3 pb-3 border border-dark col-sm-12 col-md-6 col-lg-6">
+						<a name="About"></a>
+						<div class="bg-yel p-3">
+							<p class="ml-2 mr-3 rubik">About Me</p>
+							<div data-aos="fade-up" class="bg-yel">
+								<p class="ml-2 mr-3 text-justify">Full Stack Developer in Web Development and IT Intructor at Zuitt Coding Bootcamp. I've been Graduated in 2022 with the Bachelor of Science in Computer Engineering.</p> 
+								<p class="ml-2 mr-3 text-justify">I have a prior work experience in web programming includes knowledge of relational database systems, Object Oriented Programming, and web application development. Ability to work in and thrive in a fast-paced environment, as well as learn and master a wide range of web technologies and techniques. I make certain that websites look good and function properly. </p>
+							</div>
+						</div>
+					</div>
+
+				<!-- List Items -->
+				<div class="bg-orng pt-3 pb-3 border border-dark col-xs-12 col-md-6 col-lg-6">
+					<div class="bg-orng col-sm-12 p-3 ml-2 mr-2">
+						<div data-aos="fade-up" class="bg-orng text-justify ">
+							<p class="rubik">SKILLS</p>
+							<ul class="ulstyle row">
+								<div class="col-xs-5 col-5">
+									<li>
+										<p>Python</p>
+									</li>
+									<li>
+										<p>Java</p>
+									</li>
+									<li>
+										<p>HTML</p>
+									</li>
+									<li>
+										<p>CSS</p>
+									</li>
+									<li>
+										<p>Bootstrap</p>
+									</li>
+									<li>
+										<p>Javascript</p>
+									</li>
+								</div>
+								<div class="col-xs-5 col-5">
+									<ul class="ulstyle">
+									<li>
+										<p>Django & Flask</p>
+									</li>
+									<li>
+										<p>Mongo DB</p>
+									</li>
+									<li>
+										<p>MySQL</p>
+									</li>
+									<li>
+										<p>Express.js</p>
+									</li>
+									<li>
+										<p>React.Js</p>
+									</li>
+									<li>
+										<p>Node.Js</p>
+									</li>
+								</ul>
+								</div>
+							</div>
+						</div>
+						<a name="Projects"></a>
+					</div>
 				</div>
-			</div>
+					<!-- About Me End-->
 
-		</section>
-		<!-- Landing Page End -->
+					<!-- Projects -->
+					<div class="container black-bg mt-5">
+					  <div class="text-center">
+					    <h1 class="rubik text-white mb-5">My<strong class="text-warning"> Projects </strong></em></h1>
+					  </div>
+					  <div class="container">
+					    <div class="card-columns">
+					      <div class="card">
+					        <a href="https://aljogratspersiangrill.com/">
+					        <img class="card-img-top" src="./images/Project1.png" alt="Card image cap">
+					        <div class="card-body">
+					          <h5 class="card-title">Al Jograts Persian Grill</h5>
+					          <p class="card-text">
+					            This Al Jograts Persian Grill Website is made from HTML, CSS, and Bootstrap. The Purpose of this website is to promote the Al Jograts Persian Grill Restaurant to the internet to boost the marketing and sales.
+					          </p>
+					          <p class="card-text"><small class="text-muted"><i class="bi bi-calendar-check"></i><i class="fas fa-calendar-alt"></i>March 20, 2020</small></p>
+					      </div>
+					        </a>
+					      </div>
+					      <div class="card">
+					        <a href="https://cjmacaraeg900.github.io/Simple-Calculator/">
+					        <img class="card-img-top" src="./images/Project2.png" alt="Card image cap">
+					        <div class="card-body">
+					          <h5 class="card-title">CSS ART Calculator</h5>
+					          <p class="card-text">It is a CSS Calculator Design Develop with Basic Arithmetic Operation which can calculate the answers in specific given. It is responsive like a real basic calculator and the function is build in javascript by using function classes.</p>
+					          <p class="card-text"><small class="text-muted"><i class="bi bi-calendar-check"></i><i class="fas fa-calendar-alt"></i>June 20, 2021</small></p>
+					        </div>
+					        </a>
+					      </div>
+					      <div class="card">
+					        <a href="https://bench-force-cj-macaraeg.vercel.app/">
+					        <img class="card-img-top" src="https://bench-force-cj-macaraeg.vercel.app/images/landing-page.jpg" alt="Card image cap">
+					        <div class="card-body">
+					          <h5 class="card-title">BenchForce</h5>
+					          <p class="card-text">It is an E-commerce App for Creating a customize and Pre-set System Unit Platform that gives customers a satisfaction when it comes on Performance and Design</p>
+					          <p class="card-text"><small class="text-muted"><i class="bi bi-calendar-check"></i><i class="fas fa-calendar-alt"></i>Oct 28, 2022</small></p>
+					        </div>
+					        </a>
+					      </div>
 
-		<!-- About Me -->
-		<section>
-			<a name="About"></a>
-			<div class="bg-light p-3 ml-2 mr-2">
-					<p class="plarge2">About Me</p>
-				<div data-aos="fade-up" class="bg-light text-justify">
-					<h5>Hi, I'm</h5>
-					<p class="plargel">CJ MACARAEG</p>
-					<h5>Full Stack Developer in Web Development and IT Intructor at Zuitt Coding Bootcamp. I've been Graduated in 2022 with the Bachelor of Science in Computer Engineering.</h5> 
-					<h5>I have a prior work experience in web programming includes knowledge of relational database systems, Object Oriented Programming, and web application development. Ability to work in and thrive in a fast-paced environment, as well as learn and master a wide range of web technologies and techniques. I make certain that websites look good and function properly. </h5>
-				</div>
-			</div>
-			<!-- List Items -->
-			<div class="bg-light p-3 ml-2 mr-2">
-				<div data-aos="fade-up" class="bg-light text-justify ">
-					<p class="plargel">SKILLS</p>
-					<p class="plargel">SKILLS</p>
-					<ul class="ulstyle">
-						<li>
-							<h5>Python</h5>
-						</li>
-						<li>
-							<h5>Java</h5>
-						</li>
-						<li>
-							<h5>HTML</h5>
-						</li>
-						<li>
-							<h5>CSS</h5>
-						</li>
-						<li>
-							<h5>Bootstrap</h5>
-						</li>
-						<li>
-							<h5>Javascript</h5>
-						</li>
-						<li>
-							<h5>Django / Flask</h5>
-						</li>
-						<li>
-							<h5>Mongo DB and MySQL</h5>
-						</li>
-						<li>
-							<h5>Express.js</h5>
-						</li>
-						<li>
-							<h5>React.Js</h5>
-						</li>
-						<li>
-							<h5>Node.Js</h5>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<!-- About Me End-->
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
 
-		<!-- Projects -->
-		<section>
-			<a name="Projects"></a>
-			<div class="bg-light p-3 ml-2 mr-2">
-				<p class="plarge2">Projects</p>
-			   	<div data-aos="fade-up" class="bg-light p-3 d-md-flex justify-content-around">
+					<!-- Projects End -->
 
-			        	<!-- Al Jograts Card -->
-			        	<div class="p-3 bg-light text-light col-lg-6">
-			        		<div class="bg-dark col-sm-12 col-md-12 col-lg-12 p-2">
-			        	    	<p class="plarge">Al Jograt</p>
-			        	    	<a href="https://aljogratspersiangrill.com/">
-			        	    		<img src="./images/Project1.png" alt="Project1" class="img-fluid mb-4" >
-			        	    	</a>
-			        	    	<p class="text-justify">This Al Jograts Persian Grill Website is made from HTML, CSS, and Bootstrap. The Purpose of this website is to promote the Al Jograts Persian Grill Restaurant to the internet to boost the marketing and sales.</p>
-			        	    </div>
-			        	</div>
-			        	<!--  Al Jograts Card End -->
-		
-			        	<!-- Simple Calculator Card-->
-			        	<div class="p-3 bg-light text-light col-lg-6">
-			        		<div class="bg-dark col-sm-12 col-md-12 col-lg-12 p-2">
-			        			<p class="plarge">CSS Art</p>
-			        			<a href="https://cjmacaraeg900.github.io/Simple-Calculator/">
-			        			<img src="./images/Project2.png" alt="Project2" class="img-fluid mb-4">
-			        			</a>
-			        	    	<p class="text-justify">It is a CSS Calculator Design Develop with Basic Arithmetic Operation which can calculate the answers in specific given. It is responsive like a real basic calculator and the function is build in javascript by using function classes.
-			        	    	</p>
-			        	    	
-			        	    </div>
-			        	</div>
-			        	<!-- Simple Calculator Card-->
-			    </div>	
-			</div>
-		</section>
-		<!-- Projects End -->
-			
-		<!-- Forms -->
-		<section class="bg-light min-vh-100 p-5">
-			<a name="Contact"></a>
-			<p class="plarge2">Contact</p>
-			<h5>If you have Questions, Feel free to Fill the forms</h5>
-			<div class="bg-light p-3">
-	
-				<!-- Forms -->
-				<div data-aos="fade-up" class="bg-dark text-left col-sm-12 col-md-12 col-lg-12">
-				<form class="text-white">
-				  <div class="form-group">
-				    <label for="exampleFormControlInput1" class="mt-2">Name</label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-				  </div>
-	
-				  <div class="form-group">
-				    <label for="exampleFormControlInput1">Email address</label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-				  </div>
-	
-				  <div class="form-group">
-				    <label for="exampleFormControlInput1">Contact Number</label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+63 900 000 0000">
-				  </div>
+					<!-- Forms -->
+					<section class="black-bg text-white min-vh-100 p-5">
+						<a name="Contact"></a>
+						<p class="text-center text-white rubik mb-3 mt-5"><strong class="text-warning">Contact</strong> Me</p>
+						<h6 class="text-center mb-3"><em class="text-warning">If you have Questions, feel free to fill-up the forms</em></h6>
+						<div class="black-bg form-row align-items-center justify-content-center">
 
-	
-				  <div class="form-group">
-				    <label for="exampleFormControlTextarea1">Messages</label>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-				  </div>
-				</form>
-				<!-- Forms end -->
+							<!-- Forms -->
+							<div data-aos="fade-up" class="black-bg text-left col-sm-12 col-md-6 col-lg-6">
+								<form class="text-white">
+									<div class="form-group">
+										<label for="exampleFormControlInput1" class="mt-2">Name</label>
+										<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+									</div>
 
-			    <!-- Button trigger modal -->
-			    <button type="button text" class="btn btn-primary mb-3" data-toggle="modal" data-target="#exampleModal">
-			      Send
-			    </button>
-	
-			    <!-- Modal -->
-			    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			      <div class="modal-dialog">
-			        <div class="modal-content">
-			          <div class="modal-header">
-			            <h5 class="modal-title" id="exampleModalLabel">Thank you for Contacting us!</h5>
-			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			              <span aria-hidden="true">&times;</span>
-			            </button>
-			          </div>
-			          <div class="modal-body">
-			            Message Successfully Sent
-			          </div>
-			          <div class="modal-footer">
-			            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			          </div>
-			        </div>
-			      </div>
-			    </div>
-			    <!-- Modal End -->
+									<div class="form-group">
+										<label for="exampleFormControlInput1">Email address</label>
+										<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+									</div>
 
-		    </div>
-		</section>
-	</main>
-	<!-- Main Content End -->
+									<div class="form-group">
+										<label for="exampleFormControlInput1">Contact Number</label>
+										<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+63 900 000 0000">
+									</div>
 
 
-	<!-- Footer -->
-	<footer>
-		<div class="footerfont p-2 text-center">
-		  <p class="footerfont text-light ">Visit my Social Media Sites</p>
-		  <a href="https://www.facebook.com/cj.macaraeg07/">  <img src ="./images/facebook-icon.jpg" class="icon mr-5"></a>
-		  <a href="https://github.com/cjmacaraeg900/">  <img src ="./images/git-icon.jpg" class="icon mr-5 ml-5"></a>
-		  <a href="https://www.linkedin.com/in/cj-m-7b34b513a/">  <img src ="./images/LinkIn-logo.png" class="icon ml-5"></a>
+									<div class="form-group">
+										<label for="exampleFormControlTextarea1">Messages</label>
+										<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+									</div>
+								</form>
+								<!-- Forms end -->
 
-		  <div>
-		    <span class="footerfont text-light text-center p-1">
-		    	<span>All Rights Reserved</span>
-		    	<span>|</span>
-		    	<span>Terms and Conditions</span>
-		    	<span>|</span>
-		    	<span>cjmacaraeg900@gmail.com</span>
-		    </span>
-		  </div>
-		</div>
-	</footer>
-	<!-- Footer End --> 
+								<!-- Button trigger modal -->
+								<div class="d-flex justify-content-center mt-5">
+								<button type="button text-center" class="btn btn btn-warning mb-3 pr-5 pl-5" data-toggle="modal" data-target="#exampleModal">
+									<i class="bi bi-send-plus"> Send Now</i>
+								</button>
+								</div>
 
-	<!-- Bootstrap JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="exampleModalLabel">Thank you for Contacting us!</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												Message Successfully Sent
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal End -->
 
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-	  AOS.init();
-	</script>
+							</div>
+						</section>
+
+						<!-- Main Content End -->
+
+
+						<!-- Footer -->
+						<footer>
+							<div class="footerfont p-2 text-center text-norm">
+								<h4 class="rubik-1 text-white mb-3 ">Visit my <em class="text-warning">Social Media</em> Sites</h4>
+								<a href="https://www.facebook.com/cj.macaraeg07/">  <img src ="./images/facebook-icon.jpg" class="icon mr-5 mb-3"></a>
+								<a href="https://github.com/cjmacaraeg900/">  <img src ="./images/git-icon.jpg" class="icon mr-5 ml-5 mb-3"></a>
+								<a href="https://www.linkedin.com/in/cj-m-7b34b513a/">  <img src ="./images/LinkIn-logo.png" class="icon ml-5 mb-3"></a>
+
+								<h6 class="text-center text-white mt-3">@2022 All Rights Reserved  |  @cjmacaraeg900@gmail.com</h6>
+							</div>
+						</footer>
+						<!-- Footer End --> 
+
+						<!-- Bootstrap JavaScript -->
+						<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+						<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+						<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+						<script>
+							AOS.init();
+						</script>
 </body>
 </html>
+
